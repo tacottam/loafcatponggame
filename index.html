@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Loaf Pong</title>
+  <style>
+    canvas {
+      border: 1px solid black;
+    }
+
+    #gameCanvas {
+      background-color: rgb(255, 240, 157);
+    }
+  </style>
+</head>
+<body>
+  <h1>Loaf Pong</h1>
+  <canvas id="gameCanvas" width="800" height="400"></canvas>
+  <div>
+    <button id="onePlayerBtn">One Player</button>
+    <button id="twoPlayersBtn">Two Players</button>
+    <button id="startBtn" disabled>Start</button>
+  </div>
+  <div>
+    <h2>Player 1 Score: <span id="player1Score">0</span></h2>
+    <h2>Player 2 Score: <span id="player2Score">0</span></h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
