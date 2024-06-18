@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Preload sound effects
   function preloadSoundEffects() {
     for (let i = 1; i <= 10; i++) {
-      const audio = new Audio(`audio/meow${i}.mp3`);
+      const audio = new Audio(`audio/Meow${i}.mp3`);
       soundEffects.push(audio);
     }
   }
